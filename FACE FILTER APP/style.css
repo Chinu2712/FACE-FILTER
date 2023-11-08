@@ -1,0 +1,18 @@
+h3{
+    font-size :290px;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name:lightning;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes Lightning{
+    from {box-shadow: 2px 2px 40px greenyellow;}
+    to {box-shadow: 2px 2px 40px blue;}
+}
